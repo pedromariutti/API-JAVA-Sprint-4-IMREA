@@ -1,62 +1,29 @@
-# imrea-api
+# 🚀 IMREA API - JAVA (Sprint 4)
+    
+Este é o repositório do projeto de back-end (API RESTful) da Sprint 4 (Challenge) para a FIAP. Esta API é o cérebro do sistema de cadastro auxiliar do IMREA, responsável por gerenciar Pacientes, Cuidadores e Consultas.
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+A aplicação foi desenvolvida em **Java** com o framework **Quarkus**, utilizando **Maven** para gerenciamento de dependências. O deploy foi feito na plataforma **Render** utilizando **Docker**.
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+---
 
-## Running the application in dev mode
+## 🔗 Links Principais
 
-You can run your application in dev mode that enables live coding using:
+* **a. Link do GitHub Front-end (Repositório):** `https://github.com/pedromariutti/imrea-frontend`
+* **b. Link do GitHub JAVA (Repositório):** `https://github.com/pedromariutti/API-JAVA-Sprint-4-IMREA`
+* **c. Link do Vídeo no YouTube (Apresentação):** `https://youtu.be/QlqkyTDXINo`
 
-```shell script
-./mvnw quarkus:dev
-```
+---
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
+## 🧑‍💻 Integrantes
 
-## Packaging and running the application
+Este projeto foi desenvolvido pelo Grupo:
 
-The application can be packaged using:
+* **Pedro Mariutti** (RM 75999)
+    * [LinkedIn](https://www.linkedin.com/in/pedromariutti/) | [Github](https://github.com/pedromariutti)
+* **Henrique Orellana** (RM 565608)
+    * [LinkedIn](https://www.linkedin.com/in/henriqueorellana/) | [Github](https://github.com/Guren156)
+* **Rafael Carvalho** (RM 563413)
+    * [LinkedIn](https://www.linkedin.com/in/rafael-carvalho-meireles-0a3a87130/) | [Github](https://github.com/rafaelcmeireles)
 
-```shell script
-./mvnw package
-```
 
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
-
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
-
-If you want to build an _über-jar_, execute the following command:
-
-```shell script
-./mvnw package -Dquarkus.package.jar.type=uber-jar
-```
-
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
-
-## Creating a native executable
-
-You can create a native executable using:
-
-```shell script
-./mvnw package -Dnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using:
-
-```shell script
-./mvnw package -Dnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/imrea-api-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult <https://quarkus.io/guides/maven-tooling>.
-
-## Provided Code
-
-### REST
-
-Easily start your REST Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+### 📂 Documentação completa na raiz **Documentação JAVA-IMREA.pdf**
